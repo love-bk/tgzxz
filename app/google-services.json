@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "118965823038",
+    "firebase_url": "https://sweet-news.firebaseio.com",
+    "project_id": "sweet-news",
+    "storage_bucket": "sweet-news.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118965823038:android:6905331ec8cc7343",
+        "android_client_info": {
+          "package_name": "com.tianguo.zxz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118965823038-fpp1n3mbsul20qf96ju3s1idvj3os0t9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUm_eGrKCazZv8tuJgOB8e1Hmje_1S768"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

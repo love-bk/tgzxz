@@ -1,0 +1,1742 @@
+[
+    {
+        "outputFile": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 39,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 39,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 140,
+                    "endColumn": 41,
+                    "endOffset": 177
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 41,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 182,
+                    "endColumn": 47,
+                    "endOffset": 225
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 47,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 230,
+                    "endColumn": 49,
+                    "endOffset": 275
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 49,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 280,
+                    "endColumn": 54,
+                    "endOffset": 330
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 54,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 335,
+                    "endColumn": 50,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 50,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 52,
+                    "endOffset": 434
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 52,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 439,
+                    "endColumn": 41,
+                    "endOffset": 476
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 41,
+                        "endOffset": 476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 481,
+                    "endColumn": 41,
+                    "endOffset": 518
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 481,
+                        "endColumn": 41,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 523,
+                    "endColumn": 47,
+                    "endOffset": 566
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 47,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 571,
+                    "endColumn": 47,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 571,
+                        "endColumn": 47,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 619,
+                    "endColumn": 42,
+                    "endOffset": 657
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 42,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 662,
+                    "endColumn": 53,
+                    "endOffset": 711
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 662,
+                        "endColumn": 53,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 716,
+                    "endColumn": 46,
+                    "endOffset": 758
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 46,
+                        "endOffset": 758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 763,
+                    "endColumn": 43,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endColumn": 43,
+                        "endOffset": 802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 42,
+                    "endOffset": 845
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 807,
+                        "endColumn": 42,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 850,
+                    "endColumn": 40,
+                    "endOffset": 886
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 40,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 891,
+                    "endColumn": 45,
+                    "endOffset": 932
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 45,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 937,
+                    "endColumn": 47,
+                    "endOffset": 980
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 47,
+                        "endOffset": 980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 985,
+                    "endColumn": 42,
+                    "endOffset": 1023
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 985,
+                        "endColumn": 42,
+                        "endOffset": 1023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1028,
+                    "endColumn": 50,
+                    "endOffset": 1074
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1028,
+                        "endColumn": 50,
+                        "endOffset": 1074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1079,
+                    "endColumn": 61,
+                    "endOffset": 1136
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1079,
+                        "endColumn": 61,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1141,
+                    "endColumn": 53,
+                    "endOffset": 1190
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1141,
+                        "endColumn": 53,
+                        "endOffset": 1190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1195,
+                    "endColumn": 52,
+                    "endOffset": 1243
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1195,
+                        "endColumn": 52,
+                        "endOffset": 1243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1248,
+                    "endColumn": 39,
+                    "endOffset": 1283
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1248,
+                        "endColumn": 39,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1288,
+                    "endColumn": 41,
+                    "endOffset": 1325
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1288,
+                        "endColumn": 41,
+                        "endOffset": 1325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1330,
+                    "endColumn": 43,
+                    "endOffset": 1369
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1330,
+                        "endColumn": 43,
+                        "endOffset": 1369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3019,
+                    "endColumn": 66,
+                    "endOffset": 3081
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3019,
+                        "endColumn": 66,
+                        "endOffset": 3081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3086,
+                    "endColumn": 66,
+                    "endOffset": 3148
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3086,
+                        "endColumn": 66,
+                        "endOffset": 3148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3153,
+                    "endColumn": 57,
+                    "endOffset": 3206
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3153,
+                        "endColumn": 57,
+                        "endOffset": 3206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3211,
+                    "endColumn": 59,
+                    "endOffset": 3266
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 3211,
+                        "endColumn": 59,
+                        "endOffset": 3266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3271,
+                    "endColumn": 57,
+                    "endOffset": 3324
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3271,
+                        "endColumn": 57,
+                        "endOffset": 3324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3329,
+                    "endColumn": 51,
+                    "endOffset": 3376
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3329,
+                        "endColumn": 51,
+                        "endOffset": 3376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3381,
+                    "endColumn": 107,
+                    "endOffset": 3484
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3381,
+                        "endColumn": 107,
+                        "endOffset": 3484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3489,
+                    "endColumn": 119,
+                    "endOffset": 3604
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3489,
+                        "endColumn": 119,
+                        "endOffset": 3604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3609,
+                    "endColumn": 113,
+                    "endOffset": 3718
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3609,
+                        "endColumn": 113,
+                        "endOffset": 3718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3723,
+                    "endColumn": 63,
+                    "endOffset": 3782
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3723,
+                        "endColumn": 63,
+                        "endOffset": 3782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3787,
+                    "endColumn": 69,
+                    "endOffset": 3852
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3787,
+                        "endColumn": 69,
+                        "endOffset": 3852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3857,
+                    "endColumn": 67,
+                    "endOffset": 3920
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3857,
+                        "endColumn": 67,
+                        "endOffset": 3920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3925,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4217
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3925,
+                        "endLine": 65,
+                        "endColumn": 12,
+                        "endOffset": 4217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4222,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 4383
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4222,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 4383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4388,
+                    "endLine": 78,
+                    "endColumn": 12,
+                    "endOffset": 5000
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 4388,
+                        "endLine": 78,
+                        "endColumn": 12,
+                        "endOffset": 5000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5005,
+                    "endLine": 85,
+                    "endColumn": 12,
+                    "endOffset": 5271
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 5005,
+                        "endLine": 85,
+                        "endColumn": 12,
+                        "endOffset": 5271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5276,
+                    "endLine": 94,
+                    "endColumn": 12,
+                    "endOffset": 5810
+                },
+                "from": {
+                    "file": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 5276,
+                        "endLine": 94,
+                        "endColumn": 12,
+                        "endOffset": 5810
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\tgzxz\\shareLib\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 44,
+                    "endOffset": 95
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 44,
+                        "endOffset": 95
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 100,
+                    "endColumn": 39,
+                    "endOffset": 135
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 100,
+                        "endColumn": 39,
+                        "endOffset": 135
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 140,
+                    "endColumn": 41,
+                    "endOffset": 177
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 41,
+                        "endOffset": 177
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 182,
+                    "endColumn": 47,
+                    "endOffset": 225
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endColumn": 47,
+                        "endOffset": 225
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 230,
+                    "endColumn": 49,
+                    "endOffset": 275
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 230,
+                        "endColumn": 49,
+                        "endOffset": 275
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 280,
+                    "endColumn": 54,
+                    "endOffset": 330
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 280,
+                        "endColumn": 54,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 335,
+                    "endColumn": 50,
+                    "endOffset": 381
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 335,
+                        "endColumn": 50,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 386,
+                    "endColumn": 52,
+                    "endOffset": 434
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endColumn": 52,
+                        "endOffset": 434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 439,
+                    "endColumn": 41,
+                    "endOffset": 476
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 41,
+                        "endOffset": 476
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 481,
+                    "endColumn": 41,
+                    "endOffset": 518
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 481,
+                        "endColumn": 41,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 523,
+                    "endColumn": 47,
+                    "endOffset": 566
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 47,
+                        "endOffset": 566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 571,
+                    "endColumn": 47,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 571,
+                        "endColumn": 47,
+                        "endOffset": 614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 619,
+                    "endColumn": 42,
+                    "endOffset": 657
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 619,
+                        "endColumn": 42,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 662,
+                    "endColumn": 53,
+                    "endOffset": 711
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 662,
+                        "endColumn": 53,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 716,
+                    "endColumn": 46,
+                    "endOffset": 758
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 46,
+                        "endOffset": 758
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 763,
+                    "endColumn": 43,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 763,
+                        "endColumn": 43,
+                        "endOffset": 802
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 42,
+                    "endOffset": 845
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 807,
+                        "endColumn": 42,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 850,
+                    "endColumn": 40,
+                    "endOffset": 886
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endColumn": 40,
+                        "endOffset": 886
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 891,
+                    "endColumn": 45,
+                    "endOffset": 932
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 891,
+                        "endColumn": 45,
+                        "endOffset": 932
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 937,
+                    "endColumn": 47,
+                    "endOffset": 980
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 937,
+                        "endColumn": 47,
+                        "endOffset": 980
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 985,
+                    "endColumn": 42,
+                    "endOffset": 1023
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 985,
+                        "endColumn": 42,
+                        "endOffset": 1023
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1028,
+                    "endColumn": 50,
+                    "endOffset": 1074
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1028,
+                        "endColumn": 50,
+                        "endOffset": 1074
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1079,
+                    "endColumn": 61,
+                    "endOffset": 1136
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1079,
+                        "endColumn": 61,
+                        "endOffset": 1136
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1141,
+                    "endColumn": 53,
+                    "endOffset": 1190
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1141,
+                        "endColumn": 53,
+                        "endOffset": 1190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1195,
+                    "endColumn": 52,
+                    "endOffset": 1243
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1195,
+                        "endColumn": 52,
+                        "endOffset": 1243
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1248,
+                    "endColumn": 39,
+                    "endOffset": 1283
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1248,
+                        "endColumn": 39,
+                        "endOffset": 1283
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1288,
+                    "endColumn": 41,
+                    "endOffset": 1325
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1288,
+                        "endColumn": 41,
+                        "endOffset": 1325
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1330,
+                    "endColumn": 43,
+                    "endOffset": 1369
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1330,
+                        "endColumn": 43,
+                        "endOffset": 1369
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3019,
+                    "endColumn": 66,
+                    "endOffset": 3081
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 3019,
+                        "endColumn": 66,
+                        "endOffset": 3081
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3086,
+                    "endColumn": 66,
+                    "endOffset": 3148
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 4,
+                        "startOffset": 3086,
+                        "endColumn": 66,
+                        "endOffset": 3148
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3153,
+                    "endColumn": 57,
+                    "endOffset": 3206
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 4,
+                        "startOffset": 3153,
+                        "endColumn": 57,
+                        "endOffset": 3206
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3211,
+                    "endColumn": 59,
+                    "endOffset": 3266
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 4,
+                        "startOffset": 3211,
+                        "endColumn": 59,
+                        "endOffset": 3266
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3271,
+                    "endColumn": 57,
+                    "endOffset": 3324
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 4,
+                        "startOffset": 3271,
+                        "endColumn": 57,
+                        "endOffset": 3324
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3329,
+                    "endColumn": 51,
+                    "endOffset": 3376
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 4,
+                        "startOffset": 3329,
+                        "endColumn": 51,
+                        "endOffset": 3376
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3381,
+                    "endColumn": 107,
+                    "endOffset": 3484
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 4,
+                        "startOffset": 3381,
+                        "endColumn": 107,
+                        "endOffset": 3484
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3489,
+                    "endColumn": 119,
+                    "endOffset": 3604
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 4,
+                        "startOffset": 3489,
+                        "endColumn": 119,
+                        "endOffset": 3604
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3609,
+                    "endColumn": 113,
+                    "endOffset": 3718
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 4,
+                        "startOffset": 3609,
+                        "endColumn": 113,
+                        "endOffset": 3718
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3723,
+                    "endColumn": 63,
+                    "endOffset": 3782
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 4,
+                        "startOffset": 3723,
+                        "endColumn": 63,
+                        "endOffset": 3782
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 3787,
+                    "endColumn": 69,
+                    "endOffset": 3852
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 4,
+                        "startOffset": 3787,
+                        "endColumn": 69,
+                        "endOffset": 3852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 3857,
+                    "endColumn": 67,
+                    "endOffset": 3920
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 4,
+                        "startOffset": 3857,
+                        "endColumn": 67,
+                        "endOffset": 3920
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 3925,
+                    "endLine": 65,
+                    "endColumn": 12,
+                    "endOffset": 4217
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 4,
+                        "startOffset": 3925,
+                        "endLine": 65,
+                        "endColumn": 12,
+                        "endOffset": 4217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 66,
+                    "startColumn": 4,
+                    "startOffset": 4222,
+                    "endLine": 68,
+                    "endColumn": 12,
+                    "endOffset": 4383
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 4222,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 4383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 69,
+                    "startColumn": 4,
+                    "startOffset": 4388,
+                    "endLine": 78,
+                    "endColumn": 12,
+                    "endOffset": 5000
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 4388,
+                        "endLine": 78,
+                        "endColumn": 12,
+                        "endOffset": 5000
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 79,
+                    "startColumn": 4,
+                    "startOffset": 5005,
+                    "endLine": 85,
+                    "endColumn": 12,
+                    "endOffset": 5271
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 4,
+                        "startOffset": 5005,
+                        "endLine": 85,
+                        "endColumn": 12,
+                        "endOffset": 5271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 86,
+                    "startColumn": 4,
+                    "startOffset": 5276,
+                    "endLine": 94,
+                    "endColumn": 12,
+                    "endOffset": 5810
+                },
+                "from": {
+                    "file": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 86,
+                        "startColumn": 4,
+                        "startOffset": 5276,
+                        "endLine": 94,
+                        "endColumn": 12,
+                        "endOffset": 5810
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_title"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/xian"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="117dp"
+            android:text="真实姓名"
+            android:textColor="#000"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tv_tixian_name"
+            android:layout_width="match_parent"
+            android:textColor="@color/cent"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textColorHint="@color/hint"
+            android:hint="请填写您的真实姓名"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e5e5e5"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e5e5e5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:text="支付宝账号"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="117dp"
+            android:textColor="@color/cent"
+            android:textSize="16sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tv_tixian_zhifubao"
+            android:layout_width="match_parent"
+            android:textColor="@color/cent"
+            android:textSize="16sp"
+            android:padding="10dp"
+            android:textColorHint="@color/codetext"
+            android:hint="支付宝绑定的手机号"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* 提现先绑定手机号\n"
+        android:textColor="@color/cent"
+        android:textSize="14sp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* 根据企业支付转账规定，您须提供以下信息:真实姓名，支付宝关联的手机号\n"
+        android:textColor="@color/cent"
+        android:textSize="14sp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="* 一个支付宝账号只能为一个甜果ID提现\n"
+        android:textColor="@color/cent"
+        android:textSize="14sp"
+        android:layout_marginLeft="5dp"
+        android:gravity="center_vertical"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cent"
+        android:text="* 预计7天内到账\n"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:textSize="14sp" />
+    <Button
+        android:id="@+id/vt_help_commid"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="#4094fc"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textColor="#878998"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:layout_height="wrap_content"
+        android:text="预计7天内到账"/>
+
+
+</LinearLayout>

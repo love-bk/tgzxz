@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <paths>
+        <external-path
+            name="external_storage_root"
+            path="." />
+    </paths>
+    <paths>
+        <external-path
+            name="bd_file_paths"
+            path="." />
+    </paths>
+
+</resources>

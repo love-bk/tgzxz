@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="#eae9e9"
+    android:layout_height="match_parent">
+    <include layout="@layout/common_title"/>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="80dp"
+            android:text="手机号"
+            android:textColor="#000"
+            android:textSize="15sp"
+
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tv_help_phone"
+
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColorHint="#e5e5e5"
+            android:hint="请输入您的手机号"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e5e5e5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="80dp"
+            android:text="电子邮箱"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/tv_help_maile"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:textColorHint="#e5e5e5"
+            android:hint="（选填）"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#e5e5e5"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal">
+        <TextView
+            android:padding="10dp"
+            android:layout_width="80dp"
+            android:text="意见内容"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:gravity="top"
+            android:layout_height="match_parent" />
+        <EditText
+            android:id="@+id/tv_help_cent"
+            android:layout_width="match_parent"
+            android:textColor="#000"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:gravity="top"
+            android:minLines="3"
+            android:textColorHint="#e5e5e5"
+            android:hint="请输入您的建议"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+   <Button
+       android:id="@+id/vt_help_commid"
+       android:layout_marginTop="50dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="提交"
+       android:textSize="18sp"
+       android:layout_marginRight="10dp"
+       android:layout_marginLeft="10dp"
+       android:background="#0ae218"/>
+
+</LinearLayout>

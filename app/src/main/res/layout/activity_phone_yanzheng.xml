@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="15dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:text="手机验证"
+            android:textColor="@color/cent"
+            android:textSize="@dimen/teile_text" />
+
+        <TextView
+            android:id="@+id/iv_yanzheng_tiaoguo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:padding="15dp"
+            android:text="跳过"
+            android:textColor="@color/tishi"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/xian" />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/login_banner"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/tishi"
+        android:layout_marginRight="40dp"
+        android:text="为了您能顺利提现，请验证手机号码，以后您可以通过手机号进行登录"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_bangding_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@mipmap/phone"
+        android:drawablePadding="8.5dp"
+        android:hint="手机号"
+        android:maxLines="12"
+        android:textColor="#000"
+        android:textColorHint="@color/centhits"
+        android:textSize="17sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/xian" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_bangding_yanzheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/code"
+            android:drawablePadding="10dp"
+            android:hint="验证码"
+            android:textColorHint="@color/centhits"
+            android:maxLines="12"
+            android:digits="1234567890."
+            android:textColor="#000"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/tv_bangding_yanzheng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="获取验证码"
+            android:padding="10dp"
+            android:digits="1234567890."
+            android:textColor="@color/codetext"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/xian" />
+
+
+    <EditText
+        android:id="@+id/et_yanzheng_yaoqingma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:drawableLeft="@mipmap/yaoingma"
+        android:drawablePadding="10dp"
+        android:hint="邀请码(可不填)"
+        android:textColor="@color/cent"
+        android:textColorHint="#999797"
+        android:textSize="17sp" />
+<View
+    android:layout_width="match_parent"
+    android:layout_marginLeft="45dp"
+    android:layout_marginRight="45dp"
+    android:layout_height="0.5dp"
+    android:background="@color/xian"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textSize="12sp"
+        android:textColor="#e93a3a"
+        android:layout_height="wrap_content"
+        android:text="输入好友邀请码认师傅，得1元红包"/>
+    <TextView
+        android:id="@+id/tv_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shanp_get_yanzheng"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="确定"
+        android:textSize="18sp" />
+</LinearLayout>

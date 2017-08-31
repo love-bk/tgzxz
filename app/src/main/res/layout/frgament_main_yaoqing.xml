@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_enlightening_icome"
+                    style="@style/invite_tv_style"
+                    android:text="0.00元\n收徒收入" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#d6d6d6" />
+
+                <TextView
+                    android:id="@+id/tv_disciple_num"
+                    style="@style/invite_tv_style"
+                    android:text="0个\n徒弟" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#d6d6d6" />
+
+                <TextView
+                    android:id="@+id/tv_dd_num"
+                    style="@style/invite_tv_style"
+                    android:text="0个\n徒孙" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d6d6d6" />
+
+            <RelativeLayout
+                android:id="@+id/tv_yaoqing_image"
+                android:layout_width="wrap_content"
+                android:layout_height="230dp"
+                android:layout_weight="1"
+                android:background="@mipmap/yaoqing_bg">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="227dp"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/invite_img" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_highest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="12dp"
+                android:text="邀请一个徒弟最高赚10元"
+                android:textColor="#fd9866"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:gravity="center"
+                android:text="-使用下面方式邀请-"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/iv_share_wechat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@mipmap/weixin"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="微信"
+                    android:textColor="@color/cent" />
+
+                <TextView
+                    android:id="@+id/iv_share_sinaweibo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@mipmap/pengyouquan"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="朋友圈"
+                    android:textColor="@color/cent" />
+
+                <TextView
+                    android:id="@+id/iv_share_qq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@mipmap/qq"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="QQ好友"
+                    android:textColor="@color/cent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/iv_share_qzone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@mipmap/qqhongjian"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="QQ空间"
+                    android:textColor="@color/cent" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_yaoqing_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:drawablePadding="10dp"
+                        android:drawableTop="@mipmap/yaoqing_tu"
+                        android:gravity="center"
+                        android:text="复制邀请码"
+                        android:textColor="@color/cent" />
+
+                    <TextView
+                        android:id="@+id/tv_yaoqing_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="30dp"
+                        android:textColor="#e6e93a3a"
+                        android:textSize="18sp" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/tv_yaoqing_erweima"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:drawablePadding="10dp"
+                    android:drawableTop="@mipmap/erweima"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:text="二维码"
+                    android:textColor="@color/cent" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_not_read"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="如果不会邀请，点这里查看教程>>"
+                android:textColor="#847c7c"
+                android:textSize="13sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:background="#d6d6d6"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="@string/st_reward"
+                android:textColor="@color/codetext"
+                android:textSize="25sp"
+                android:drawableLeft="@mipmap/st_reward"
+                android:drawablePadding="5dp"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/tv_head_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/invite_rule_head"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:lineSpacingExtra="5dp"
+                android:textSize="16sp"
+                android:textColor="#000"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#adadad"/>
+            <include layout="@layout/invite_rule"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

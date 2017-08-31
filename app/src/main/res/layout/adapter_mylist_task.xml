@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:padding="5dp"
+    android:layout_height="wrap_content">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xian"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_rl_now_task"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shanp_chiek_over"/>
+
+        <TextView
+            android:id="@+id/tv_up_images"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:layout_alignParentRight="true"
+            android:padding="5dp"
+            android:text="上传截图"
+            android:layout_marginTop="5dp"
+            android:textSize="11sp"
+            android:layout_centerVertical="true"
+
+            android:textColor="#fff"
+            android:background="#2242e4"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_text1"
+            android:gravity="center_vertical"
+            android:textColor="@color/cent"
+            android:text=""
+            android:layout_alignTop="@+id/iv_rl_now_task"
+            android:layout_toLeftOf="@+id/tv_up_images"
+            android:layout_toRightOf="@+id/iv_rl_now_task"/>
+    </RelativeLayout>
+</LinearLayout>

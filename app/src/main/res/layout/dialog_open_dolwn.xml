@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/shanp_dilaog_bg"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/common_15sp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="下载提示"
+        android:textColor="#5ae955"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="@dimen/common_15sp"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="即将开始免流量下载"
+        android:textColor="@color/cent"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_dilao_flas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textSize="18sp"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/seclc_diog_down_gg_bg"
+            android:textColor="@drawable/seclc_diog_down_gg"
+            android:padding="10dp"
+            android:text="取消"/>
+        <RadioButton
+            android:id="@+id/rb_dilao_true"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:button="@null"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:checked="true"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:background="@drawable/seclc_diog_down_gg_bg"
+            android:textColor="@drawable/seclc_diog_down_gg"
+            android:text="确定"/>
+    </RadioGroup>
+
+</LinearLayout>

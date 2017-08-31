@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f3f4f6"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f3f4f6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_zhifu_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e93a3a"
+            android:drawableLeft="@mipmap/whit_back"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e93a3a"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp">
+
+
+            <TextView
+                android:id="@+id/tv_my_yue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:textSize="52sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="当前余额（元）"
+                android:textColor="#ffe8e8"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_zhifu_tixian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:padding="5dp"
+                android:layout_marginTop="5dp"
+                android:text="提现记录"
+                android:textColor="#fff"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="提现金额"
+                android:textColor="@color/cent"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/xinshouzhuanxiang"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="5dp"/>
+                    <RadioButton
+                        android:id="@+id/tv_my_ti_xinshou"
+                        style="@style/alipay_tv1"
+                        android:background="@drawable/selector_alipay"
+                        android:text="1元" />
+                    <RadioButton
+                        android:id="@+id/tv_my_ti_50"
+                        style="@style/alipay_tv1"
+                        android:background="@drawable/selector_alipay"
+                        android:layout_marginTop="10dp"
+                        android:text="50元" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    >
+                    <RadioButton
+                        android:id="@+id/tv_my_ti_30"
+                        style="@style/alipay_tv1"
+                        android:background="@drawable/selector_alipay"
+                        android:text="30元" />
+                    <RadioButton
+                        android:id="@+id/tv_my_ti_80"
+                        style="@style/alipay_tv1"
+                        android:background="@drawable/selector_alipay"
+                        android:layout_marginTop="10dp"
+                        android:text="80元" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_my_ti_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/selector_withdrawal"
+                android:gravity="center"
+                android:text="提现到支付宝"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="余额不够怎么办？"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_readnews"
+                    style="@style/alipay_btn"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/selector_readnews"
+                    android:text="阅读新闻赚钱" />
+
+                <Button
+                    android:id="@+id/btn_invitefriends"
+                    style="@style/alipay_btn"
+                    android:background="@drawable/selector_invitefriends"
+                    android:text="邀请好友赚钱" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="* 提现先绑定手机号\n* 根据企业支付转账规定，您须提供以下信息:真实姓名，支付宝关联的手机号\n* 一个支付宝账号只能为一个甜果ID提现\n* 预计7天内到账"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

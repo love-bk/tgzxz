@@ -1,0 +1,166 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.neenbedankt.android-apt'
+apply from: 'tinker-support.gradle'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'bugly'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '26'
+    // 签名配置
+    signingConfigs {
+        release {
+            try {
+                storeFile file("key_migua.keystore")
+                storePassword "migua.net"
+                keyAlias "migua"
+                keyPassword "migua.net"
+            } catch (ex) {
+                throw new InvalidUserDataException(ex.toString())
+            }
+        }
+
+    }
+    defaultConfig {
+        resConfigs "zh"
+        multiDexEnabled true
+        //配置SO文件
+        ndk {
+            //设置支持的SO库架构
+            abiFilters 'armeabi' //, 'x86', 'armeabi-v7a', 'x86_64', 'arm64-v8a'
+        }
+
+        sourceSets {
+            main {
+                jniLibs.srcDirs = ['libs']
+            }
+        }
+        applicationId "com.tianguo.zxz"
+        minSdkVersion 16
+        targetSdkVersion 23
+        versionCode 1023
+        versionName "1.0.2.8"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        debug {
+            // 显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            versionNameSuffix "-debug"
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        release {
+            // 不显示Log
+            buildConfigField "boolean", "LOG_DEBUG", "true"
+            //混淆
+            minifyEnabled true
+            //Zipalign优化
+            zipAlignEnabled true
+            //加载默认混淆配置文件
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //签名
+
+        }
+    }
+
+    dexOptions {
+        incremental true
+        jumboMode = true
+
+    }
+    lintOptions {
+        abortOnError false
+        checkReleaseBuilds false
+    }
+    repositories {
+        flatDir {
+            dirs 'libs'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_7
+        targetCompatibility JavaVersion.VERSION_1_7
+    }
+
+    dependencies {
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile 'com.android.support:appcompat-v7:25.3.1'
+        compile 'com.android.support:cardview-v7:25.1.0'
+        compile 'com.android.support:recyclerview-v7:25.1.0'
+        compile 'com.readystatesoftware.systembartint:systembartint:1.0.3'
+        //网络框架
+        compile 'com.squareup.retrofit2:retrofit:2.0.0'
+        compile 'com.squareup.retrofit2:converter-gson:2.1.0'
+        compile 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0-RC3'
+        compile 'io.reactivex.rxjava2:rxjava:2.0.0-RC3'
+        compile 'com.github.Aspsine:SwipeToLoadLayout:v1.0.0'
+        compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
+        compile 'io.reactivex.rxjava2:rxandroid:2.0.0-RC1'
+        //图片框架
+        compile 'com.github.bumptech.glide:glide:3.7.0'
+        compile 'com.github.chrisbanes.photoview:library:1.2.4'
+        compile files('libs/utdid4all-1.1.5.3_proguard.jar')
+        compile files('libs/umeng-analytics-v6.1.0.jar')
+        //butterkn
+        compile 'com.jakewharton:butterknife:8.2.1'
+        apt 'com.jakewharton:butterknife-compiler:8.2.1'
+        //刷新
+        compile 'com.github.Aspsine:SwipeToLoadLayout:1.0.3'
+        compile 'com.android.support:multidex:1.0.0'
+        compile files('libs/android-query-full.0.26.7.jar')
+        compile files('src/main/jnilibs/MobCommons-2017.0412.1554.jar')
+        compile files('src/main/jnilibs/MobTools-2017.0412.1554.jar')
+        compile files('src/main/jnilibs/ShareSDK-Core-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-QQ-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-QZone-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-ShortMessage-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-SinaWeibo-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-Wechat-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-Wechat-Core-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-Wechat-Favorite-2.8.3.jar')
+        compile files('src/main/jnilibs/ShareSDK-Wechat-Moments-2.8.3.jar')
+        compile files('libs/Baidu_MobAds_SDK.jar')
+        compile 'cn.finalteam:galleryfinal:1.4.8.7'
+
+        compile "com.android.support:design:25.1.1"
+//        immod 广告
+        // 远程仓库集成方式（推荐）
+        compile 'com.tencent.bugly:crashreport_upgrade:latest.release'//
+        compile 'com.tencent.bugly:nativecrashreport:latest.release'
+        // walle（多渠道使用）
+        compile 'com.meituan.android.walle:library:1.1.3'
+        compile "me.leolin:ShortcutBadger:1.1.16@aar"
+        compile 'com.google.firebase:firebase-ads:10.2.1'
+        compile name: 'YoumiSdk_v7.5.0_2017-06-02', ext: 'aar'
+        compile 'com.getbase:floatingactionbutton:1.10.1'
+        compile(name: 'tuia-2.2.0', ext: 'aar')
+
+    }
+
+    dependencies {
+        compile files('src/main/jnilibs/jcore-android_v1.1.3.jar')
+        compile files('src/main/jnilibs/jpush-android_v3.0.6.jar')
+    }
+}
+
+bugly {
+    appId = '7d598c182d' // 注册时分配的App ID
+    appKey = 'ca3356d8-b4a0-4afc-bdb0-c5f85cdb614a' // 注册时分配的App Key
+}
+dependencies {
+    compile project(':shareLib')
+    compile files('libs/dlnetwork.jar')
+    compile files('libs/gdt_mob_release.jar')
+    compile files('libs/InMobi.jar')
+    compile files('libs/picasso.jar')
+    compile files('libs/AdViewSDK_Android.jar')
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+}

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bj_red">#FF0000</color>
+    <color name="bj_shadow">#55000000</color>
+    <color name="bj_black">#000</color>
+    <color name="bj_white">#fff</color>
+    <color name="bj_gray">#c6c8ca</color>
+    <color name="bj_graythembg">#f7f7f7</color>
+    <color name="bj_green">#008000</color>
+    <color name="bj_blue">#40B9FF</color>
+    <color name="bj_yellow">#FFFF00</color>
+    <color name="bj_wood">#339933</color>
+    <color name="bj_peach">#FF0066</color>
+    <color name="bj_lightgray">#999999</color>
+    <color name="bj_orange">#CC6600</color>
+    <color name="bj_item_selector_bg">#fcbe22</color>
+    <color name="bj_theme">#336699</color>
+    <color name="bj_gold">#F27D00</color>
+    <color name="bj_transparent">#00000000</color>
+    <color name="bj_text_num_gray">#333</color>
+    <color name="bj_dialog_title_blue">#9CCCF7</color>
+    <color name="bj_transparent_background">#00000000</color>
+    <color name="bj_graythem">#ffececec</color>
+    <color name="bj_undo_text_color">#8c8e8d</color>
+    <color name="bj_do_text_color">#fa700a</color>
+    <color name="bj_done_text_color">#5bc994</color>
+    <color name="bj_bgcolor">#e3e3e3</color>
+    <color name="bj_box_border">#0EA1B7</color>
+    <color name="bj_box_title_bg">#0EA1B7</color>
+    <color name="bj_transparent_bb">#bb000000</color>
+
+
+</resources>

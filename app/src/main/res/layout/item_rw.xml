@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:paddingLeft="@dimen/dimen_15dp"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/dimen_16sp"
+                    android:textColor="@color/title_color"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/tv_money"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:textColor="#e93a3a"
+                    android:textSize="@dimen/dimen_12sp"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5dp"
+                android:maxLines="1"
+                android:ellipsize="none"
+                android:textColor="@color/qd_color"
+                android:textSize="@dimen/dimen_12sp"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/btn_rw"
+            android:layout_width="70dp"
+            android:layout_height="35dp"
+            android:padding="@dimen/dimen_5dp"
+            android:textSize="@dimen/dimen_15sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:background="@drawable/task_unfinish_bg"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:text="做任务"
+
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#dee0e2"
+        android:layout_marginLeft="@dimen/dimen_15dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.tianguo.zxz"
+    android:installLocation="auto">
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="23" />
+    <!-- 最低支持Android Sdk Version 9 -->
+    <!-- Required -->
+    <permission
+        android:name="com.tianguo.zxz.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.tianguo.zxz.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 用于开启 debug 版本的应用在6.0 系统上 层叠窗口权限 -->
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <!-- 安沃、力美所需的权限 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- InMobi、易传媒所需的权限 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- InMobi、力美所需的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- -易传媒 所需的权限 -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <!-- Ader、smaato可选权限 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <!-- Ader、力美所需权限 -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <!-- 有米 所需的权限 -->
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <!-- Ader、万普、指点、力美所需权限 -->
+    <!-- 百度 所需的权限 -->
+    <uses-permission android:name="com.android.browser.permission.READ_HISTORY_BOOKMARKS" />
+    <!-- smaato 所需的权限 -->
+    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <!-- 蓝牙分享所需的权限 -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="com.tianguo.zxz.broadcast.permission" />
+    <!-- 点财所需要的权限 -->
+    <uses-permission
+        android:name="android.permission.PACKAGE_USAGE_STATS"
+        tools:ignore="ProtectedPermissions" />
+    <!-- 点乐 -->
+    <uses-permission android:name="android.permission.GET_TASKS" />
+
+    <application
+        android:name=".MyApplictation"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/zhuanlogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        tools:ignore="HardcodedDebugMode"
+        tools:replace="android:allowBackup">
+
+        <!-- 铜盾 -->
+        <meta-data
+            android:name="PARTNER_CODE"
+            android:value="seewed" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="opdq2nxd" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.bugly.beta.ui.BetaActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize|locale"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".activity.GGWed"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ReWebActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.MyInfoActivity"
+            android:screenOrientation="portrait" />
+        <!-- kuaiyan -->
+        <meta-data
+            android:name="3DUNIN_APPKEY"
+            android:value="woeFDeZibgs9gMFfoUBhLaN0g2G62EcI" />
+        <!-- //GuanggaoActivity是点击广告跳转的activity，如果不配置会跳到手机自带的浏览器中 -->
+        <activity android:name="com.wmcsk.activity.GuanggaoActivity" />
+        <!-- //DownloadService是用于广告页面点击下载提示功能注册与接收广播使用 -->
+        <service android:name="com.wmcsk.service.DownloadService" />
+
+        <activity
+            android:name=".activity.MyActivity.HelpAndFanActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.RenWuActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.SoWebActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.HelpCentnetActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.CreditActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyActivity.DialogActivity"
+            android:theme="@style/activitydialog_style" />
+        <activity
+            android:name=".activity.PhoneLoginYaoActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.StarManeyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.MyActivity.Nowactivity" />
+        <activity
+            android:name=".activity.MyActivity.OpenManeryActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PhoneYanActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.ZhiFuBaoActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.HelpActivy"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity android:name=".activity.PermissionCheckActivity" />
+        <activity
+            android:name=".activity.MyActivity.YYDetailActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.MyActivity.YYXZActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.WebListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.TiXianActivty"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.ErWeiMActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.GetMoneyActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.datouniao.AdPublisher.AdsOffersWebView"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity
+            android:name=".activity.MyActivity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyActivity.VerificationCodeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyActivity.NoPassManeryActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ShareActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyActivity.JianDanZhuan"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.PhoneloginActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.NewsInfoActivty"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.newsLoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.MyActivity.SetPassWordActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.STBenefitActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ApprenticeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.MyActivity.YYupImageActivity" />
+        <!-- adview？ -->
+        <service android:name=".DownloadService" />
+
+        <activity android:name=".AdviewWebView" />
+        <activity android:name=".AdActivity" />
+
+        <!-- 激光推送 -->
+        <!-- For test only 测试高级功能 -->
+
+
+        <!-- Rich push 核心功能 since 2.0.6 -->
+
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" />
+
+        <!-- Required SDK核心功能 -->
+
+        -
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
+            -
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.tianguo.zxz" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required SDK 核心功能 -->
+
+
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+
+        -
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:exported="false"
+            android:process=":mult">
+            -
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+
+
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+
+        -
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true">
+            -
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.tianguo.zxz" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+
+        -
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false">
+            -
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+
+                <!-- Required 显示通知栏 -->
+
+                <category android:name="com.tianguo.zxz" />
+            </intent-filter>
+            -
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+
+            <!-- Optional -->
+            -
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+
+        <!-- User defined. For test only 用户自定义的广播接收器 -->
+
+        -
+        <receiver
+            android:name=".serviec.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            -
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+
+                <!-- Required 用户注册SDK的intent -->
+
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+
+                <!-- Required 用户接收SDK消息的intent -->
+
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+
+                <!-- Required 用户接收SDK通知栏信息的intent -->
+
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+
+                <!-- Required 用户打开自定义通知栏的intent -->
+
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+
+                <category android:name="com.tianguo.zxz" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required . Enable it you can get statistics data with channel -->
+
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="867dc22e99be234ecd14f976" />
+
+        <!-- 讯飞广告 -->
+        <service android:name="com.iflytek.voiceads.update.DownloadService" />
+
+        <activity
+            android:name="com.iflytek.voiceads.request.IFLYBrowser"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="IFLYTEK_APPKEY_AD"
+            android:value="58f9a157" />
+
+        <!-- share分享 -->
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:windowSoftInputMode="stateHidden|adjustResize" />
+
+        <intent-filter>
+            <data android:scheme="tencent100371282" />
+
+            <action android:name="android.intent.action.VIEW" />
+
+            <category android:name="android.intent.category.BROWSABLE" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <!-- 调用新浪原生SDK，需要注册的回调activity -->
+        <intent-filter>
+            <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+
+        <!-- 微信分享回调 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait" />
+        <!-- 快视频 -->
+        <activity
+            android:name="com.qihoo360.videosdk.page.NewsVideoPage"
+            android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name="com.qihoo360.videosdk.page.CommentInfoPage"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait" />
+        <!-- //更新下载 监听 7.0安全适配 -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.tianguo.zxz.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+
+            <!-- 元数据 -->
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service android:name=".serviec.DownLoadService" />
+        <service android:name=".uctils.DownGGUtils" />
+        <service
+            android:name=".serviec.LocalService"
+            android:enabled="true"
+            android:exported="false" />
+        <!-- //友盟统计 -->
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="58eedc6407fe6551050014ba" />
+        <!-- Include the AdActivity configChanges and theme. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service android:name="com.dianjoy.video.DianViewService" />
+        <!-- 视频广告 -->
+        <activity
+            android:name="com.dianjoy.video.DianViewAdBrowser"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.dianjoy.video.DianViewActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.IncomeDetailActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+
+        <receiver
+            android:name=".serviec.AlarmReceiver"
+            android:permission="com.tianguo.zxz.broadcast.permission">
+            <intent-filter>
+                <action android:name="repeating" />
+            </intent-filter>
+        </receiver>
+
+        <!-- adview -->
+
+
+        <!-- 广电同 -->
+        <service
+            android:name="com.qq.e.comm.DownloadService"
+            android:exported="false" />
+
+        <activity
+            android:name="com.qq.e.ads.ADActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize" />
+        <activity
+            android:name=".activity.MyActivity.IntegralActivity"
+            android:screenOrientation="portrait" />
+        <!-- Ⲵappkey -->
+        <meta-data
+            android:name="TUIA_APPKEY"
+            android:value="xvjxwDKLBFCsatx5KtSSnB5czbz" />
+
+        <activity
+            android:name=".activity.MyWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ChannelActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 点财 -->
+        <!-- SDK展示载体  必须 -->
+        <activity
+            android:name="com.dc.wall.DcActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+
+        <!-- SDK服务1  必须 -->
+        <service android:name="com.dc.wall.AC" />
+
+        <!-- SDK服务2  必须 -->
+        <service android:name="com.dc.wall.DC" />
+
+        <!-- 趣米需要的 -->
+        <activity android:name="com.qm.pw.ss.PASec" />
+
+        <service android:name="com.qm.pw.ss.PyS" />
+
+        <!-- 中亿需要的 -->
+        <activity
+            android:name="com.zy.phone.sdk.SDKActivity"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="com.zy.phone.service.BootReceiver">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.zy.phone.service.ZYService" />
+
+        <!-- 点乐 -->
+
+        <activity
+            android:name="com.dlnetwork.DevNativeActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.dlnetwork.DevNativeService" />
+
+        <!-- 大头鸟 -->
+        <service
+            android:name="com.datouniao.AdPublisher.service.AdsService"
+            android:exported="false" />
+
+        <receiver android:name="com.datouniao.AdPublisher.service.AppReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="com.datouniao.AdPublisher.service.check" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

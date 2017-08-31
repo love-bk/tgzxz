@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/recorde_bgcolor"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_title" />
+
+    <RelativeLayout
+        android:id="@+id/ll_record"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/recorde_color"
+        android:visibility="gone">
+
+        <com.tianguo.zxz.view.VerticalRollingTextView
+            android:id="@+id/tv_recorde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:duration="500"
+            android:padding="5dp"
+            android:singleLine="true"
+            android:textColor="#fff"
+            app:animInterval="2000" />
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#fff"
+        android:fadingEdge="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_color"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_color">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@mipmap/bg"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tv_qiandao"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15dp"
+                    android:drawableTop="@mipmap/but_qiandao"
+                    android:gravity="center"
+                    android:textColor="#000"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/re_qiandao"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_below="@id/tv_qiandao"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@mipmap/rili"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi"
+                            android:drawableRight="@mipmap/sign_line" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day1"
+                            style="@style/day_style"
+                            android:text="1天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day1"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi"
+                            android:drawableRight="@mipmap/sign_line" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day2"
+                            style="@style/day_style"
+                            android:text="2天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day2"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi"
+                            android:drawableRight="@mipmap/sign_line" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day3"
+                            style="@style/day_style"
+                            android:text="3天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day3"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi"
+                            android:drawableRight="@mipmap/sign_line" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day4"
+                            style="@style/day_style"
+                            android:text="4天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day4"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi"
+                            android:drawableRight="@mipmap/sign_line" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day5"
+                            style="@style/day_style"
+                            android:text="5天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day5"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi"
+                            android:drawableRight="@mipmap/sign_line" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day6"
+                            style="@style/day_style"
+                            android:text="6天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day6"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/day_style0">
+
+                        <TextView
+                            android:id="@+id/tv_gold7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:drawableLeft="@mipmap/jinbi" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_iv_day7"
+                            style="@style/day_style"
+                            android:text="7天" />
+
+                        <TextView
+                            android:id="@+id/tv_qiandao_day7"
+                            style="@style/day_style1" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <com.tianguo.zxz.view.MyListView
+                android:id="@+id/listView_rw"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:divider="#fff"
+                android:dividerHeight="0dp" />
+
+            <Button
+                android:id="@+id/btn_money"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp"
+                android:layout_marginTop="18dp"
+                android:background="@mipmap/button_hong"
+                android:text="领取1元现金"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/ll_task_market"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="18dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="30dp"
+                android:background="#fb842c"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="任务集市>>"
+                    android:textColor="#ffffff"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/tv_reward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="吐血推荐，每天都有新任务，赚钱奖不停"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

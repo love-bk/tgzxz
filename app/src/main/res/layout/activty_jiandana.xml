@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e5"
+    android:orientation="vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/ll_chuantou"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/common_title"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/xian"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f1f1f1"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="看广告，领奖励！赚钱超轻松"
+            android:textColor="#fd00fe"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:id="@+id/rl_zhuan_see"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_lv"
+                android:gravity="center"
+                android:text="看赚"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_1"
+                android:layout_toRightOf="@+id/tv_1"
+                android:text="看看赚"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="看广告就有钱"
+                android:textColor="@color/tishi"
+                android:textSize="12sp"
+                android:layout_alignBottom="@+id/tv_1"
+                android:layout_toRightOf="@+id/tv_1"
+                android:layout_toEndOf="@+id/tv_1" />
+
+            <TextView
+                android:id="@+id/tv_look_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_1"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_1"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_zhuan_see_see"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_ju"
+                android:gravity="center"
+                android:text="看看"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_2"
+                android:layout_toRightOf="@+id/tv_2"
+                android:text="看点赚"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_2"
+                android:layout_toRightOf="@+id/tv_2"
+                android:text="看广告就有钱"
+                android:textColor="@color/tishi"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_dian_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_2"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_2"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5"
+                android:visibility="gone"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_zhuan_cliner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_lan"
+                android:gravity="center"
+                android:text="点赚"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_3"
+                android:layout_toRightOf="@+id/tv_3"
+                android:text="点赚"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_3"
+                android:layout_toRightOf="@+id/tv_3"
+                android:text="点广告就有钱"
+                android:textColor="@color/tishi"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_3"
+                android:layout_centerHorizontal="true"
+                android:text="0.80元"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_3"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_zhuan_sharp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_zi"
+                android:gravity="center"
+                android:text="阅读"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_4"
+                android:layout_toRightOf="@+id/tv_4"
+                android:text="阅读赚钱"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_4"
+                android:layout_toRightOf="@+id/tv_4"
+                android:text="推荐指数:"
+                android:textColor="@color/tishi"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_4"
+                android:layout_centerHorizontal="true"
+                android:text="5.00元"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_4"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_video_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_viod"
+                android:gravity="center"
+                android:text="视频"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_5"
+                android:layout_toRightOf="@+id/tv_5"
+                android:text="视频赚钱"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_5"
+                android:layout_toRightOf="@+id/tv_5"
+                android:text="推荐指数:"
+                android:textColor="@color/tishi"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_5"
+                android:layout_centerHorizontal="true"
+                android:text="2.00元"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_5"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:textColor="#fff"
+                android:textSize="12sp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_down_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:visibility="gone"
+          >
+
+            <TextView
+                android:id="@+id/tv_6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_6"
+                android:layout_toRightOf="@+id/tv_6"
+                android:text="下载赚钱"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_6"
+                android:layout_toRightOf="@+id/tv_6"
+                android:text="推荐指数:"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_6"
+                android:layout_centerHorizontal="true"
+                android:text="15.00元"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_6"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_zhuan_yue"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+        <!--android:id="@+id/tv_5"-->
+        <!--android:text="阅读"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:textSize="13sp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:height="40dp"-->
+        <!--android:gravity="center"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_width="40dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:background="@drawable/shanp_jiandan_lv"/>-->
+        <!--<TextView-->
+        <!--android:id="@+id/text5"-->
+        <!--android:layout_toRightOf="@+id/tv_5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:text="看赚"-->
+        <!--android:layout_alignTop="@+id/tv_5"-->
+        <!--android:textColor="@color/cent"/>-->
+        <!--<TextView-->
+        <!--android:layout_toRightOf="@+id/tv_5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:text="推荐指数:"-->
+        <!--android:layout_alignBottom="@+id/tv_5"-->
+        <!--android:textColor="@color/tishi"/>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="14sp"-->
+        <!--android:layout_alignTop="@+id/tv_5"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:text="0.80元"-->
+        <!--android:textColor="@color/codetext"/>-->
+        <!--<RatingBar-->
+        <!--android:isIndicator="true"-->
+        <!--style="?android:attr/ratingBarStyleSmall"-->
+        <!--android:numStars="5"-->
+        <!--android:layout_alignBottom="@+id/tv_5"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:rating="5"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--/>-->
+        <!--<TextView-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:background="@color/codetext"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:paddingTop="5dp"-->
+        <!--android:paddingBottom="5dp"-->
+        <!--android:paddingRight="10dp"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="领取"/>-->
+        <!--</RelativeLayout>-->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+
+        <RelativeLayout
+            android:id="@+id/rl_lainmeng_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_7"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_7"
+                android:layout_toRightOf="@+id/tv_7"
+                android:text="积分赚钱"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_7"
+                android:layout_toRightOf="@+id/tv_7"
+                android:text="推荐指数:"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_7"
+                android:layout_centerHorizontal="true"
+                android:text="15.00元"
+                android:textColor="@color/codetext"
+                android:textSize="14sp" />
+
+            <RatingBar
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_7"
+                android:layout_centerHorizontal="true"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@color/codetext"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp"
+                android:text="领取" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/in_my_gg"
+            layout="@layout/stye_mygg_latout" />
+    </LinearLayout>
+</ScrollView>

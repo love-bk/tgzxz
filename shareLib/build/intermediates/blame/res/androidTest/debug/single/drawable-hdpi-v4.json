@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bj_indicator_arrow.png",
+        "source": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bj_indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bj_default_ptr_flip.png",
+        "source": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bj_default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bj_default_ptr_rotate.png",
+        "source": "F:\\SSDWorkSpace\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bj_default_ptr_rotate.png"
+    },
+    {
+        "merged": "F:\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bj_default_ptr_flip.png",
+        "source": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bj_default_ptr_flip.png"
+    },
+    {
+        "merged": "F:\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bj_indicator_arrow.png",
+        "source": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bj_indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\tgzxz\\shareLib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4\\bj_default_ptr_rotate.png",
+        "source": "F:\\tgzxz\\shareLib\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bj_default_ptr_rotate.png"
+    }
+]

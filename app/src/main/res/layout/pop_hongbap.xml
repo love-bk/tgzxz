@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+    android:background="#00ffffff"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="285dp"
+            android:src="@mipmap/tianhong"
+            android:layout_centerHorizontal="true"
+            android:layout_height="350dp" />
+        <RelativeLayout
+            android:id="@+id/rl_2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="190dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_marginLeft="7.5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="normal"
+                android:textColor="@color/codetext"
+                android:text="5.0"/>
+            <TextView
+                android:layout_toRightOf="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="11dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/codetext"
+                android:textSize="10sp"
+                android:text="元"/>
+            <TextView
+                android:id="@+id/tv_shenyu"
+                android:layout_below="@+id/tv1"
+                android:textColor="#a6f96283"
+                android:text="剩余"
+                android:textSize="8sp"
+                android:layout_marginTop="-2dp"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_2"
+            android:layout_below="@+id/rl_2"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:textColor="#b6f551"
+            android:text="甜果资讯赚送给你一个现金大礼包"/>
+        <TextView
+            android:layout_below="@+id/tv_2"
+            android:id="@+id/tv_3"
+            android:layout_width="285dp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:textSize="10sp"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="    每成功邀请一位好友登录甜果资讯赚\n师傅获得0.5元，徒弟获得1.0元，最高得5.0元哦"/>
+
+    <TextView
+            android:id="@+id/tv_sen"
+            android:layout_below="@+id/tv_3"
+            android:layout_width="wrap_content"
+            android:text="把红包发给好友"
+            android:paddingRight="60dp"
+            android:textSize="12sp"
+            android:layout_marginTop="11dp"
+            android:gravity="center"
+            android:paddingLeft="60dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shanp_pop_sen"
+            android:layout_height="38dp" />
+        <TextView
+            android:id="@+id/tv_no"
+            android:layout_below="@+id/tv_sen"
+            android:layout_width="wrap_content"
+            android:text="任性就是不发"
+            android:paddingRight="60dp"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="65dp"
+            android:textColor="#579be9"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/shanp_pop_no"
+            android:layout_height="38dp" />
+
+
+</RelativeLayout>

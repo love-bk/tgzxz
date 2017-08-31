@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/v_start"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/ll_news_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#fff"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/tv_news_image"
+                android:layout_width="127.5dp"
+                android:layout_height="85dp"
+                android:layout_alignParentRight="true"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <ImageView
+                android:id="@+id/iv_isshou_hongbao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_marginRight="7dp"
+                android:layout_toLeftOf="@+id/tv_news_image"
+                android:scaleType="fitXY"
+                android:src="@mipmap/redbag" />
+
+            <TextView
+                android:id="@+id/tv_news_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:layout_toLeftOf="@+id/iv_isshou_hongbao"
+                android:textColor="@color/cent"
+                android:textSize="17sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/tv_news_image"
+                android:background="@color/xian" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/ll_news_duo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/iv_isshou_hongbao_duo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginRight="7dp"
+                android:layout_marginTop="8dp"
+                android:scaleType="fitXY"
+                android:src="@mipmap/redbag" />
+
+            <TextView
+                android:id="@+id/tv_news_texts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@id/iv_isshou_hongbao_duo"
+                android:textColor="@color/cent"
+                android:textSize="17sp" />
+
+            <GridView
+                android:id="@+id/gc_news_imag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_news_texts"
+                android:horizontalSpacing="2dp"
+                android:numColumns="3"
+                android:layout_centerInParent="true"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/gc_news_imag"
+                android:background="@color/xian" />
+            <View
+                android:id="@+id/vv_tv_news_texts_zhezhao"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/gv_cent_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="实时热搜"
+                android:textColor="#000"
+                android:textSize="@dimen/common_15sp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@color/xian" />
+
+            <com.tianguo.zxz.view.MyGridView
+                android:id="@+id/gv_cent_shishi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="2"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:background="@color/xian" />
+
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/icon_and_blurb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <ImageView
+                android:id="@+id/im_bit"
+                android:background="#03ffffff"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+               />
+            <ImageView
+                android:id="@+id/photo"
+                android:layout_width="127.5dp"
+                android:layout_height="85dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="8dp"
+                android:scaleType="fitXY" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+
+                android:layout_below="@+id/photo"
+                android:background="@color/xian" />
+
+            <TextView
+                android:id="@+id/teile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/photo"
+                android:textColor="#484545"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tv_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/photo"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="right"
+                android:layout_marginBottom="4dp"
+                android:layout_marginRight="10dp"
+                android:text="广告"
+                android:textColor="#c9c5c5"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/dimen_5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@+id/photo"
+                android:ellipsize="marquee"
+                android:textColor="@color/cent"
+                android:textSize="17sp" />
+
+
+        </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/in_my_gg"
+        android:visibility="gone"
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/iv_cent_gg"
+            android:gravity="center"
+            android:textColor="@color/cent"
+            android:textSize="17sp"
+            android:layout_height="40dp" />
+        <ImageView
+            android:id="@+id/gv_cent_gg"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/iv_cent_gg"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"/>
+        <View
+            android:layout_below="@+id/gv_cent_gg"
+            android:background="@color/xian"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

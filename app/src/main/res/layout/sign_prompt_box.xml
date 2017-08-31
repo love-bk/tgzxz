@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/sign_prompt_box"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/tanchukuang"/>
+        <TextView
+            android:id="@+id/tv_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="签到成功"
+            android:textSize="24sp"
+            android:textColor="#fff"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="70dp"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_below="@id/tv_sign"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/sign_box_tv"
+            android:text="恭喜你获得15金币，连续签到7天，\n所有金币自动变为现金红包！"
+            />
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="170dp"
+            android:layout_height="40dp"
+            android:background="@drawable/sign_prompt_box_confirm"
+            android:text="确定"
+            android:layout_below="@id/tv_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textSize="24sp"
+            />
+    </RelativeLayout>
+
+
+</LinearLayout>

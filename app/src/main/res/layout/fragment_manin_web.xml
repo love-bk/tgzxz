@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_news_fore"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/xian" />
+        <!--<com.qihoo360.videosdk.exportui.VideoEmbedPortalView-->
+        <!--android:id="@+id/portal_view"-->
+        <!--android:layout_weight="1"-->
+        <!--android:background="#fff"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" >-->
+        <!--</com.qihoo360.videosdk.exportui.VideoEmbedPortalView>-->
+        <com.tianguo.zxz.view.MySocWebView
+            android:id="@+id/wv_baidu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:visibility="invisible" />
+
+        <com.db.ta.sdk.TMAwView
+            android:id="@+id/TMAw1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical|right"
+            tools:shape="square" />
+
+        <View
+            android:id="@+id/vv_loading_bg"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_centerInParent="true"
+            android:layout_height="30dp"
+            android:visibility="gone"
+            android:background="@mipmap/videosdk_listview_loading_bg"/>
+    </RelativeLayout>
+
+</LinearLayout>

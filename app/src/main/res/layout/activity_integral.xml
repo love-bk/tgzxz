@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/common_title"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/xian"/>
+        <RelativeLayout
+            android:id="@+id/rl_youmi_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_7"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:textColor="#fff"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_7"
+                android:layout_toRightOf="@+id/tv_7"
+                android:text="有米"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_7"
+                android:layout_toRightOf="@+id/tv_7"
+                android:text="任务多，体验容易，吐血推荐必做瓦！"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+        <RelativeLayout
+            android:id="@+id/rl_diancai_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_diancai"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:text="下载"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text_diancai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_diancai"
+                android:layout_toRightOf="@+id/tv_diancai"
+                android:text="点财"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_diancai"
+                android:layout_toRightOf="@+id/tv_diancai"
+                android:text="安装体验就有钱，不卸载还有奖励积分哦~"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+        <RelativeLayout
+            android:id="@+id/rl_qumi_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_5"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:text="下载"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_5"
+                android:layout_toRightOf="@+id/tv_5"
+                android:text="趣米"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_5"
+                android:layout_toRightOf="@+id/tv_5"
+                android:text="赚钱最快、最简单的下载任务~"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+        <RelativeLayout
+            android:id="@+id/rl_zhongyi_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_6"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_6"
+                android:layout_toRightOf="@+id/tv_6"
+                android:text="中亿"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_6"
+                android:layout_toRightOf="@+id/tv_6"
+                android:text="赚钱最快，最简单的赚钱任务~"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rl_dianru_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_4"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:text="下载"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_4"
+                android:layout_toRightOf="@+id/tv_4"
+                android:text="点入"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_4"
+                android:layout_toRightOf="@+id/tv_4"
+                android:text="安装体验就有钱，5颗星推荐！"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+        <RelativeLayout
+            android:id="@+id/rl_dianle_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_3"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_3"
+                android:layout_toRightOf="@+id/tv_3"
+                android:text="点乐"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_3"
+                android:layout_toRightOf="@+id/tv_3"
+                android:text="安装体验就有钱，不卸载还有奖励积分哦~"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/jdzq_line" />
+        <RelativeLayout
+            android:id="@+id/rl_datouniao_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_datouniao"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text_datouniao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_datouniao"
+                android:layout_toRightOf="@+id/tv_datouniao"
+                android:text="大头鸟"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_datouniao"
+                android:layout_toRightOf="@+id/tv_datouniao"
+                android:text="安装体验赚钱，部分要按照说明注册哦~"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_duomeng_maney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/tv_2"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:height="40dp"
+                android:background="@drawable/shanp_jiandan_down"
+                android:gravity="center"
+                android:text="下载"
+                android:textColor="#fff"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tv_2"
+                android:layout_toRightOf="@+id/tv_2"
+                android:text="多盟"
+                android:textColor="@color/cent"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/tv_2"
+                android:layout_toRightOf="@+id/tv_2"
+                android:text="安装体验赚钱，部分要按照说明注册哦~"
+                android:textColor="@color/tishi"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:drawableRight="@mipmap/icon_forward"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="5dp" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/in_my_gg"
+            layout="@layout/stye_mygg_latout" />
+    </LinearLayout>
+
+</ScrollView>

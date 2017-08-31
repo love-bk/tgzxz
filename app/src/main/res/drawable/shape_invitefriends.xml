@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:bottomLeftRadius="@dimen/enjoy_ten_dimens"
+        android:bottomRightRadius="@dimen/enjoy_ten_dimens"
+        android:topLeftRadius="@dimen/enjoy_ten_dimens"
+        android:topRightRadius="@dimen/enjoy_ten_dimens" />
+    <solid android:color="#6666fe"/>
+    <size android:width="310dp" android:height="49dp"/>
+</shape>

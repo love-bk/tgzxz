@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:id="@+id/ll_cent_fankui_ll"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tv_student_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="17sp"
+        android:textColor="#000"/>
+    <ImageView
+        android:layout_marginRight="@dimen/dimen_5dp"
+        android:layout_marginLeft="@dimen/dimen_5dp"
+        android:layout_marginTop="3dp"
+        android:padding="5dp"
+        android:id="@+id/vv_fankui_list_icon"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:scaleType="fitXY"
+       />
+    <TextView
+        android:id="@+id/vv_fankui_list_teile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="10dp"
+        android:textSize="15sp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/vv_fankui_list_teile_re"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:paddingRight="@dimen/dimen_5dp"
+        android:paddingLeft="@dimen/dimen_5dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:text="热"
+        android:textColor="#fff"
+        android:background="@drawable/shanp_student_itme"/>
+</LinearLayout>
+    <TextView
+        android:id="@+id/vv_fankui_list_text"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:textSize="@dimen/common_15sp"
+        android:textColor="#b6b1b1"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:background="#e5e5e5"
+        android:layout_height="0.5dp"/>
+</LinearLayout>

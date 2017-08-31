@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_nate_man"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="#fff"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <ImageView
+            android:id="@+id/img_poster"
+            android:layout_width="127.5dp"
+            android:layout_height="85dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@id/img_poster"
+            android:textColor="#484545"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/nat_tv_dele"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_poster"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="@dimen/dimen_5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="3dp"
+            android:text="广告"
+            android:textColor="#afaeae"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/ad_source_mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/img_poster"
+            android:layout_marginBottom="@dimen/dimen_5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/nat_tv_dele"
+            android:padding="3dp"
+            android:textColor="#cecaca"
+            android:textSize="10sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/nat_tv_dele"
+            android:layout_marginTop="10dp"
+            android:background="@color/xian" />
+    </RelativeLayout>
+</RelativeLayout>

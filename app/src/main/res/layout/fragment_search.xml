@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context="com.tianguo.zxz.fragment.SearchFragment">
+
+    <com.tianguo.zxz.view.RefreshLayout
+        android:id="@+id/sw_news_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#01000000"
+        android:dividerHeight="0dp">
+            <com.tianguo.zxz.view.HeaderGridView
+                android:id="@+id/gv_news_so"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:numColumns="2" />
+    </com.tianguo.zxz.view.RefreshLayout>
+
+
+</LinearLayout>

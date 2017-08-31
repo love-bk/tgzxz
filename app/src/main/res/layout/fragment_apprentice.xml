@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.tianguo.zxz.fragment.PaymentDetailFragment">
+
+    <LinearLayout
+        android:id="@+id/ll_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#fff"
+        android:visibility="gone">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_apprentice_bg"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:layout_margin="20dp">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="徒弟"
+                    android:textColor="#bababa"
+                    android:drawableLeft="@mipmap/peoples"
+                    android:gravity="center"
+                    android:drawablePadding="5dp"/>
+                <TextView
+                    android:id="@+id/tv_disciple_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0个"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"/>
+            </LinearLayout>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#d6d6d6" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="进贡数"
+                    android:textColor="#bababa"
+                    android:drawableLeft="@mipmap/gold"
+                    android:gravity="center"
+                    android:drawablePadding="5dp"/>
+                <TextView
+                    android:id="@+id/tv_tribute_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0.00元"
+                    android:textColor="#000"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d9d9d9"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_income_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_no"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="暂无邀请徒弟"
+        android:textColor="#000"
+        android:gravity="center"
+        android:visibility="gone"/>
+</LinearLayout>

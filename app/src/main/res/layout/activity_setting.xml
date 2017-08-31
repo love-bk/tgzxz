@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.tianguo.zxz.activity.MyActivity.SettingActivity">
+
+    <include layout="@layout/common_title" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xian" />
+
+    <TextView
+        android:id="@+id/tv_modify_password"
+        style="@style/Setting_style"
+
+        android:text="修改密码" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/xian" />
+
+    <TextView
+        android:id="@+id/tv_replace_phone"
+        style="@style/Setting_style"
+        android:text="更换手机"
+        android:visibility="gone" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#e9e8e8" />
+
+    <TextView
+        android:id="@+id/tv_perfect_data"
+        style="@style/Setting_style"
+        android:text="完善资料" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="#e9e8e8" />
+
+    <LinearLayout
+        android:id="@+id/ll_clear_cache"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pressed_effect"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="清除缓存"
+            android:textColor="#454444" />
+
+        <TextView
+            android:id="@+id/tv_total_cache"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/icon_forward"
+            android:textColor="@color/codetext" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e8e8" />
+
+    <TextView
+        android:id="@+id/tv_privacy_agreement"
+        style="@style/Setting_style"
+        android:text="隐私协议" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e8e8" />
+
+    <TextView
+        android:id="@+id/tv_check_update"
+        style="@style/Setting_style"
+        android:text="检查更新" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e8e8" />
+    <LinearLayout
+        android:id="@+id/ll_business"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/pressed_effect"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="商务洽谈（点击洽谈）"
+            android:textColor="#454444" />
+
+        <TextView
+            android:id="@+id/tv_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/icon_forward"
+            android:text="@string/phone"
+            android:textColor="#454444" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e8e8" />
+</LinearLayout>

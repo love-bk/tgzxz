@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/rl_tixian_ture"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:background="@mipmap/tanchukuang"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_gravity="center"
+        android:layout_marginTop="75dp"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提现申请成功"/>
+    <TextView
+        android:id="@+id/tv_tixian_cent"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:layout_marginTop="30dp"
+        android:textColor="#878998"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="您已经成功提交申请预计\n       7个工作日内到账"/>
+    <TextView
+        android:layout_below="@+id/tv_tixian_cent"
+        android:paddingRight="50dp"
+        android:paddingLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:background="@drawable/shanp_itme_hong_num"/>
+</LinearLayout>

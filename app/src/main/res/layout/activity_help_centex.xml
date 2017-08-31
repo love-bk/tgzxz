@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical">
+<include layout="@layout/common_title"/>
+<View
+    android:layout_width="match_parent"
+    android:layout_height="0.5dp"
+    android:background="#e5e5e5"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:fitsSystemWindows="true"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_help_cent_tiele"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <WebView
+                android:id="@+id/tv_help_cent_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                 android:padding="10dp"
+                android:textSize="@dimen/common_15sp" />
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/ll_web_isShow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RadioGroup
+                    android:id="@+id/ll_cent_fankui"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginRight="50dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shanp_help_center_button"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/tv_cent_fk_yes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:drawableLeft="@drawable/shanp_help_center_image"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:paddingLeft="10dp"
+                        android:text="已解决"
+                        android:textColor="@drawable/shanp_help_center_text" />
+
+                    <View
+                        android:id="@+id/vv_jiangyou"
+                        android:layout_width="0.5dp"
+                        android:layout_height="20dp"
+                        android:background="#fff" />
+
+                    <RadioButton
+                        android:id="@+id/tv_cent_fk_on"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:button="@null"
+                        android:checked="true"
+                        android:drawableRight="@drawable/shanp_help_center_image_false"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:paddingRight="10dp"
+                        android:text="未解决"
+                        android:textColor="@drawable/shanp_help_center_text" />
+                </RadioGroup>
+
+                <LinearLayout
+                    android:id="@+id/ll_cent_isjiejue"
+                    android:layout_width="match_parent"
+                    android:focusableInTouchMode="true"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_centerVertical="true"
+                            android:background="#c4c1c1" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:background="#fff"
+                            android:padding="@dimen/dimen_5dp"
+                            android:text="问题没有解决？"
+                            android:textColor="#c4c1c1" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/tv_kefu_mm"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="#fff"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_5dp"
+                        android:text="点击我直接联系客服>>"
+                        android:textColor="#38ed0b" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:background="#fff"
+                        android:layout_marginBottom="30dp"
+                        android:gravity="center"
+                        android:padding="@dimen/dimen_5dp"
+                        android:text="客服MM比较忙，会尽快回复您的问题"
+                        android:textColor="#000" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

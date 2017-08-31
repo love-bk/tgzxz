@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#adadb0"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/zqbWebTitle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        layout="@layout/bj_title_bar_2btn" />
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="40dp" -->
+    <!-- android:background="@color/white" -->
+    <!-- android:gravity="center_vertical" > -->
+
+
+    <!-- <ImageButton -->
+    <!-- android:id="@+id/webview_backBtn" -->
+    <!-- android:layout_width="50dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginLeft="10dp" -->
+    <!-- android:background="@null" -->
+    <!-- android:scaleType="fitCenter" -->
+    <!-- android:src="@drawable/title_back" /> -->
+
+
+    <!-- <TextView -->
+    <!-- android:id="@+id/webview_title" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:ellipsize="end" -->
+    <!-- android:gravity="center_horizontal" -->
+    <!-- android:singleLine="true" -->
+    <!-- android:textColor="@color/black" -->
+    <!-- android:textSize="20sp" /> -->
+
+
+    <!-- <ImageButton -->
+    <!-- android:id="@+id/webview_reloadBtn" -->
+    <!-- android:layout_width="50dp" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_marginRight="10dp" -->
+    <!-- android:background="@null" -->
+    <!-- android:scaleType="fitCenter" -->
+    <!-- android:src="@drawable/menu_refresh" /> -->
+    <!-- </LinearLayout> -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+
+        <ProgressBar
+            android:id="@+id/webview_progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp" />
+
+        <!-- <LinearLayout -->
+        <!-- android:id="@+id/webViewLoading" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:gravity="center" > -->
+
+
+        <!-- <kf156.view.TasksCompletedView -->
+        <!-- android:id="@+id/webview_progressBar" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- app:circleColor="#323a45" -->
+        <!-- app:radius="50dip" -->
+        <!-- app:ringColor="#14b9d6" -->
+        <!-- app:strokeWidth="20dip" /> -->
+        <!-- <ProgressBar -->
+        <!-- android:id="@+id/webview_progressBar" -->
+        <!-- style="?android:attr/progressBarStyleHorizontal" -->
+        <!-- android:layout_width="100dp" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:max="100" /> -->
+        <!-- </LinearLayout> -->
+    </RelativeLayout>
+
+</LinearLayout>

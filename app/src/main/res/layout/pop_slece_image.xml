@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:textColor="@color/cent"
+    android:id="@+id/tv_cream_heam"
+
+    android:padding="10dp"
+    android:gravity="center"
+    android:text="拍照上传头像"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/xian"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_photo_heam"
+        android:textSize="18sp"
+        android:textColor="@color/cent"
+        android:padding="10dp"
+        android:gravity="center"
+        android:text="相册上传头像"/>
+</LinearLayout>

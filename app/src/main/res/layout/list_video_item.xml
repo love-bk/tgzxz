@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff">
+
+    <FrameLayout
+        android:id="@+id/list_item_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/post_media_height"
+        android:scaleType="centerCrop"
+         />
+
+
+    <View
+        android:id="@+id/lines"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_10dp"
+        android:layout_below="@id/list_item_container"
+        android:background="#fff" />
+    <TextView
+        android:id="@+id/tv_total"
+        android:layout_width="50dp"
+        android:layout_height="25dp"
+        android:text="01:00"
+        android:textColor="#fff"
+        android:background="@drawable/shape_total_bg"
+        android:layout_alignParentRight="true"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginRight="@dimen/dimen_10dp"
+        android:layout_marginBottom="@dimen/dimen_3dp"
+        android:layout_above="@id/lines"
+        />
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/video_title_bg"
+        android:paddingLeft="10dp"
+        android:paddingRight="@dimen/dimen_10dp"
+        android:paddingTop="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/list_item_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/video_click_play_selector" />
+
+</RelativeLayout>
+
+

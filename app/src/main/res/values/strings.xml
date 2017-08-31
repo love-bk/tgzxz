@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name" translatable="false">甜果资讯赚钱</string>
+
+    <!--详情页分享-->
+    <string name="shareimage_toutiao">http://www.tianinfo.cn/logo.png</string>
+    <string name="banner_ad_unit_id">ca-app-pub-1819307126738194/5200088861</string>
+
+    <string name="action_settings">设置</string>
+    <string name="btn_show_offerswall">展示积分墙(全屏)</string>
+    <string name="btn_show_offerswall_dialog">展示积分墙(对话框)</string>
+    <string name="btn_award_points">奖励10积分</string>
+    <string name="btn_spend_points">消费20积分</string>
+    <string name="btn_get_online_config">获取有米在线参数</string>
+    <string name="btn_check_reach_ntp_time">是否达到指定网络时间</string>
+    <string name="btn_check_ad_config">检查广告配置</string>
+    <string name="red_packet_tag">iv_red_packet</string>
+    <string name="my_channel">我的频道</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--邀请也分享-->
+
+    <string name="tips_not_wifi">您当前正在使用移动网络，继续播放将消耗流量</string>
+    <string name="tips_not_wifi_confirm">继续播放</string>
+    <string name="no_net">当前找不到网络</string>
+    <string name="tips_not_wifi_cancel">停止播放</string>
+    <string name="no_url">播放地址无效</string>
+    <string name="data_load_fail">数据加载失败</string>
+
+    <string name="tip_drag">长按可以拖拽排序,点击删除</string>
+    <string name="my_cahnnel">我的频道</string>
+    <string name="other_channel">点击添加更多频道</string>
+    <string name="edit">编辑</string>
+    <string name="finish">完成</string>
+    <string name="classify_setting">分类设置</string>
+    <string name="protocol">已阅读并同意<a href="http://www.baidu.com/">甜果资讯赚用户协议</a></string>
+    <string name="confirm_pd">确认密码</string>
+    <string name="again_confirm_pd">再次确认新密码</string>
+    <string name="pd_limit">使用英文或数字，不能小于6和大于20个字符</string>
+    <string name="confirm">确定</string>
+    <string name="fill_new_pd">填写新密码</string>
+    <string name="new_pd">新密码</string>
+    <string name="fill_current_pd">填写当前密码</string>
+    <string name="current_pd">当前密码</string>
+    <string name="change_pd">修改密码</string>
+    <string name="set_pd">设置密码:</string>
+    <string name="afresh_set_pd">请重新设置密码:</string>
+    <string name="number_or_letter">只能输入数字或者字母</string>
+    <string name="change_pd_success">修改密码成功</string>
+    <string name="pd_no_equal">再次确认密码与新密码不相等</string>
+    <string name="input_pd_limit">您输入的密码长度不能小于6位并且不能大于20位</string>
+    <string name="user_protocol">用户协议</string>
+    <string name="forget_pd">忘记密码</string>
+    <string name="msg_login">通过短信验证登录</string>
+    <string name="input_phone">请填写手机号</string>
+    <string name="input_correct_phone">请填写正确手机号</string>
+    <string name="confirm_phone">我们将发送验证短信到这个号码:</string>
+    <string name="confirm_p">确认手机号码</string>
+    <string name="fill_verification_code">填写验证码</string>
+    <string name="next">下一步</string>
+    <string name="wallet_detail">收支明细</string>
+    <string name="task">任务</string>
+    <string name="setting">设置</string>
+    <string name="easy_make_money">简单赚钱</string>
+    <string name="download_make_money">下载赚钱</string>
+    <string name="look_point">看点赚</string>
+    <string name="looklook">看看赚</string>
+    <string name="read_make_money">阅读赚钱</string>
+    <string name="help">帮助与反馈</string>
+    <string name="point_make_money">点赚</string>
+    <string name="invite_rule">收徒规则</string>
+    <string name="invite_make_money">邀请赚钱</string>
+    <string name="account_info">账号资料</string>
+    <string name="withdrawal_record">提现记录</string>
+    <string name="alipay_withdrawal">支付宝提现</string>
+    <string name="make_money_tutorial">赚钱教程</string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="strategy">攻略</string>
+    <string name="look_invite_rule">查看邀请规则</string>
+    <string name="details">细节...</string>
+    <string name="go_invite">去邀请收徒</string>
+    <string name="look_detail">查看详情</string>
+    <string name="look_rule">查看规则</string>
+    <string name="look_ad">看广告</string>
+    <string name="task_management">任务管理</string>
+    <string name="invite_rule_head">为什么有的朋友每天阅读赚几十几百个金币，有的朋友就能赚上万个金币，每个几天就能提现。秘诀就在于收徒，徒弟徒孙的贡献很快就超过自己的阅读收入。</string>
+    <string name="st_reward">收徒奖励</string>
+    <string name="seven_attribute">徒弟7日贡献</string>
+    <string name="td_seven_subtitle">邀请好友加入甜果资讯，好友使用7天，您将获得0.5元+2.5元的奖励。</string>
+    <string name="ts_seven_sttribute">徒孙7日贡献</string>
+    <string name="ts_seven_subtitle">徒弟在邀请收徒，徒孙将给您和徒弟分别贡献2.5元，1个徒孙，双倍奖励。</string>
+    <string name="summer">暑期疯狂赚</string>
+    <string name="summer_title">2个徒弟额外奖励4元，收徒越多奖励越多，额外奖励最高3.6万。</string>
+    <string name="invite_ff">邀请家人和朋友</string>
+    <string name="invite_ff_subtitle">聚会,串门可直接亲友推荐甜果资讯,使用面对面邀请功能,如亲友不在面前，可使用微信邀请。</string>
+    <string name="why">为什么有的朋友每天阅读赚几十几百金币，有的朋友每天能赚上万金币，每隔几天就能提现，秘诀就在于收徒，只要你肯尝试，会发现徒弟徒孙的贡献很快会超过自己的阅读收入。</string>
+    <string name="phone">QQ:1374946898</string>
+    <string name="about_us">关于我们</string>
+</resources>

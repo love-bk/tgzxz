@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context="com.tianguo.zxz.activity.MyActivity.YYXZActivity">
+
+<RadioGroup
+    android:layout_width="match_parent"
+    android:background="@color/codetext"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:padding="7dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/tv_back"
+        android:layout_width="0dp"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_weight="0.7"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/back"/>
+    <RadioButton
+        android:layout_width="0dp"
+        android:padding="8dp"
+        android:id="@+id/rb_all"
+        android:text="全部"
+        android:gravity="center"
+        android:checked="true"
+        android:textColor="@drawable/seclc_yy_teile"
+        android:background="@drawable/selce_left_yt"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"/>
+    <RadioButton
+        android:id="@+id/rb_gemo"
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="游戏"
+        android:gravity="center"
+        android:textColor="@drawable/seclc_yy_teile"
+        android:background="@drawable/selce_cent_yt"
+        android:layout_weight="1"
+        android:button="@null"/>
+    <RadioButton
+        android:layout_width="0dp"
+        android:id="@+id/rb_app"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="应用"
+        android:textColor="@drawable/seclc_yy_teile"
+        android:background="@drawable/selce_right_yt"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:button="@null"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.7"
+        />
+
+</RadioGroup>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line_color"/>
+<FrameLayout
+    android:id="@+id/fl_yy_frgment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"/>
+
+</LinearLayout>

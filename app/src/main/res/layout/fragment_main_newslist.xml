@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.tianguo.zxz.view.RefreshLayout
+        android:id="@+id/sw_news_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:divider="#01000000"
+        android:dividerHeight="0dp">
+        <ListView
+            android:id="@+id/lv_newslist"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#01000000"
+            android:dividerHeight="0dp" />
+    </com.tianguo.zxz.view.RefreshLayout>
+
+</LinearLayout>

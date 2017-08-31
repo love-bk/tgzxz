@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary" tools:keep="@color/colorPrimary">#3F51B5</color>
+    <color name="teileisfalse">#5c5c5c</color>
+    <color name="cent">#32333c</color>
+    <color name="centhits">#999aa7</color>
+    <color name="xian">#eeeeee</color>
+    <color name="jdzq_line">#d6d6d6</color>
+    <color name="codetext">#e93a3a</color>
+    <color name="qd_color">#878998</color>
+    <color name="white">#fff</color>
+    <color name="tishi">#878998</color>
+    <color name="hint">#babbc2</color>
+    <color name="transparent_background">#01000000</color>
+    <color name="text_color">#333333</color>
+    <color name="line_color">#FFD6D6D6</color>
+    <color name="tabIndicatorColor">#FFFD9833</color>
+    <color name="money_text_color">#3b9c3b</color>
+    <color name="yyxz_item_color">#797979</color>
+    <color name="yyxz_detail_color">#fd1a76</color>
+    <color name="commentbar_bg_black">#000</color>
+    <color name="yyxz_btn_color">#00cb01</color>
+    <color name="title_color">#32333c</color>
+    <color name="bg_color">#f4f5f7</color>
+    <color name="recorde_color">#cb5601</color>
+    <color name="recorde_bgcolor">#fd6c01</color>
+    <color name="sign_box_bg">#e03634</color>
+    <color name="sign_box_tv">#323232</color>
+    <color name="line_Color">#006698</color>
+    <color name="alipay_tv_color">#3333cb</color>
+
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="alarm_default">#fdfdfe</color>
+    <color name="alarm_pressed">#d1cfcf</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="btn_rect_alpha">#56b3b3b3</color>
+    <color name="style_color">#005fff</color><!--主题色-->
+
+    <color name="tip">#9c9c9c</color>
+    <color name="channel_item_color">#7e7e7f</color>
+    <color name="bg_focus">#DDDDDD</color>
+    <color name="red_500">#ef4836</color>
+    <color name="theme_color">#e93a3a</color>
+    <color name="titleColor">#e93a3a</color>
+    <color name="tcolor">#605f5f</color>
+    <color name="pressed_color">#d8d8d8</color>
+    <color name="pressed_default">#fff</color>
+    <!--<color name="titleColor"></color>-->
+
+
+
+    <!--ui调整-->
+    <color name="common_line_color">#DEDFE0</color>
+    <color name="theme_bg_color">#F9F9FB</color>
+</resources>

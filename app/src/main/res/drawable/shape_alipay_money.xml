@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+        <corners android:topLeftRadius="@dimen/dimen_10dp"
+            android:bottomLeftRadius="@dimen/dimen_10dp"
+            android:topRightRadius="10dp"
+            android:bottomRightRadius="10dp"/>
+        <stroke
+            android:width="1dp"
+            android:color="@color/line_Color" />
+        <solid android:color="#FFFFFF" />
+</shape>
+<!--<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >-->
+
+    <!--&lt;!&ndash; 连框颜色值 &ndash;&gt;-->
+    <!--<item>-->
+        <!--<shape>-->
+            <!--<solid android:color="@color/line_Color" />-->
+
+        <!--</shape>-->
+    <!--</item>-->
+    <!--&lt;!&ndash; 主体背景颜色值 &ndash;&gt;-->
+    <!--<item-->
+        <!--android:bottom="1dp"-->
+        <!--android:left="1dp"-->
+        <!--android:right="1dp"-->
+        <!--android:top="1dp">-->
+
+        <!--&lt;!&ndash; 边框里面背景颜色 白色 &ndash;&gt;-->
+        <!--<shape>-->
+            <!--<solid android:color="#ffffff" />-->
+            <!--<corners android:bottomLeftRadius="@dimen/dimen_5dp"-->
+                <!--android:bottomRightRadius="@dimen/dimen_5dp"-->
+                <!--android:topLeftRadius="@dimen/dimen_5dp"-->
+                <!--android:topRightRadius="@dimen/dimen_5dp"/>-->
+        <!--</shape>-->
+    <!--</item>-->
+
+<!--</layer-list>-->

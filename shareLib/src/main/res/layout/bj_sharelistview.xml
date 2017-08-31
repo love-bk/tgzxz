@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/titleLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        layout="@layout/bj_title_bar_2btn" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <cn.yqzq.sharelib.handmark.pulltorefresh.library.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffffff"
+            android:cacheColorHint="#00000000"
+            android:divider="#dddddd"
+            android:dividerHeight="1px"
+            ptr:bjptrAnimationStyle="flip"
+            ptr:bjptrDrawable="@drawable/bj_default_ptr_flip"
+            ptr:bjptrHeaderTextColor="@color/bj_gray" />
+
+        <Button
+            android:id="@+id/reflush"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:text="重试"
+            android:textColor="#000000"
+            android:textSize="13sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

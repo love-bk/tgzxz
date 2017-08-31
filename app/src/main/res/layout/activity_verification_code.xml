@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context="com.tianguo.zxz.activity.MyActivity.VerificationCodeActivity">
+
+    <include layout="@layout/common_title" />
+
+    <include layout="@layout/common_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:id="@+id/tv_set_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="15dp"
+            android:paddingTop="15dp"
+            android:text="您的验证码已发送:"
+            android:textColor="#4f4f4f"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <include layout="@layout/common_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                android:id="@+id/tv_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#1672cd"
+                android:text="+186 13287793220"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape_call_bg"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="80dp"
+                android:layout_marginRight="80dp"
+                android:padding="8dp"
+                android:gravity="center"
+                android:hint="@string/fill_verification_code"
+                android:textColorHint="@color/centhits"
+                android:textSize="14sp"
+                android:background="@drawable/shape_verification_bg"/>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/current_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#d9d9d9" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="接手短信的时间需要30s"
+            android:textColor="#4f4f4f"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_complete_btn_bg"
+            android:text="@string/next"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
